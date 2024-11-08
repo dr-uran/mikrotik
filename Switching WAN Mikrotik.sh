@@ -1,5 +1,5 @@
 # Settings
-:local myip "85.175.151.174";
+:local myip "0.0.0.0";
 
 # Determine the total number of netwatch rules enabled with the specified source address
 :local NetWatchCountAll [/tool/netwatch/print count-only where src-address=$myip disabled=no];
